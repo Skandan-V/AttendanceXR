@@ -22,10 +22,10 @@ export const metadata: Metadata = {
     title: "AttendanceXR - Simplify Attendance Tracking",
     description: "Streamline your attendance management with AttendanceXR",
     type: "website",
-    url: "https://attendancexr.com",
+    url: "https://xr.hyperdyn.tech",
     images: [
       {
-        url: "https://attendancexr.com/og-image.jpg",
+        url: "https://xr.hyperdyn.tech",
         width: 1200,
         height: 630,
         alt: "AttendanceXR Logo",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "AttendanceXR - Simplify Attendance Tracking",
     description: "Streamline your attendance management with AttendanceXR",
-    images: ["https://attendancexr.com/twitter-image.jpg"],
+    images: ["https://xr.hyperdyn.tech/twitter-image.jpg"],
   },
 }
 

@@ -60,13 +60,13 @@ const defaultSubjects = [
   { abbr: "MA", full: "Multimedia & Animation" },
   { abbr: "SA", full: "Statistical &   Analysis" },
   { abbr: "CAED", full: "Computer Aided Engineering & Graphics" },
-  { abbr: "CS", full: "Computer Skills" },
+  { abbr: "CS", full: "Communication Skills" },
   { abbr: "SS-1", full: "Saahitya Sinchana" },
   { abbr: "BK-1", full: "Balake Kannada" },
   { abbr: "PMS", full: "Project Management Skills" },
 ]
 
-const teachers = ["Shruthi M", "Pradeep Kumar", "Tejaswini MP", "D.R Veena", "Panakaja H.N", "Sowrabha M.C"]
+const teachers = ["Shruthi M", "Pradeep Kumar", "Tejaswini M.P", "D.R Veena", "Panakaja H.N", "Sowrabha M.C"]
 
 export function StudentList({ onListGenerated }: StudentListProps) {
   const [students, setStudents] = useState<{ id: number; name: string }[]>([])
