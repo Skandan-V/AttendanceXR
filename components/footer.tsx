@@ -3,7 +3,7 @@ import Script from "next/script"
 
 export function Footer() {
   return (
-    <footer className="border-t py-6 px-6 bg-gray-50 dark:bg-gray-900 relative overflow-hidden">
+    <footer className="border-t py-6 px-6 bg-black dark:bg-black relative overflow-hidden">
       <div className="container mx-auto relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="space-y-4">
